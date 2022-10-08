@@ -1,18 +1,22 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
 section {
-    height: 500px;
+
     background-color: white;
     border: solid black 1px;
 }
 
 .hero {
-    background-color: #1e1e4a;
+    background-color: #101025; 
     height: 100vh;
     color: rgb(255, 255, 255);
     font-size: 40px;
 }
 
 footer {
-    height: 500px;
+    height: 150px;
     background-color: black;
 }
 
@@ -24,12 +28,93 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    width: 350px;
+    width: 500px;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 li {
 text-decoration: none;
 }
 
+h1 {
+    font-size: 90px;
+    margin: 5;
+}
+
+h2 {
+    font-size: 50px;
+}
+p {
+    margin: 5;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.intro-area {
+    display:  flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.intro-text {
+ margin-left: 40px;
+ margin-bottom: 200px;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.image {
+    width: 300px;
+    border-radius: 150px;
+
+}
+.imageme {
+    display: flex;
+    align-items: center;
+}
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border: 1px red solid;
+}
+
+.main-project{
+    width: 80%;
+    height: 300px;
+    border: 1px red solid;
+
+}
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border: 1px red solid;
+    
+} 
+
+.project{
+    width: 40%;
+    height: 150px;
+    margin: 10px;
+    border: 1px red solid;
+
+}
