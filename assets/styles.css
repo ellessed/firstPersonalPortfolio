@@ -5,7 +5,7 @@ body {
 section {
 
     background-color: white;
-    border: solid black 1px;
+
 }
 
 .hero {
@@ -16,7 +16,7 @@ section {
 }
 
 footer {
-    height: 150px;
+    height: 100px;
     background-color: black;
 }
 
@@ -44,6 +44,15 @@ h1 {
 
 h2 {
     font-size: 50px;
+    
+}
+h3 {
+    font-size: 50px;
+    
+}
+
+h4 {
+    color: white;
 }
 p {
     margin: 5;
@@ -70,10 +79,19 @@ p {
     margin: 20px;
 }
 
-.sub-section {
-    display: flex;
-    justify-content: space-around;
+#sub-section {
     padding: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#contact {
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .image {
@@ -84,37 +102,57 @@ p {
 .imageme {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.projects-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
-    border: 1px red solid;
-}
 
-.main-project{
+
+
+
+#projects {
     width: 80%;
-    height: 300px;
-    border: 1px red solid;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.cards {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 
 }
-.projects-container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    border: 1px red solid;
-    
-} 
 
-.project{
-    width: 40%;
-    height: 150px;
-    margin: 10px;
-    border: 1px red solid;
+.main-card {
+background-image: url(../assets/project-one.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border: 20px;
+    margin:auto;
+}
 
+.other-cards {
+    background-image: url(../assets/comingsoon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+}
+
+.test {
+    height: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    flex-basis: 30%;
 }
