@@ -3,13 +3,13 @@
 This project will contain a personal portfolio to showcase my work to potential employers.
 This project is important because creating a portfolio exemplifies my accomplishments, skills and experience. Providing a better insight into my personality and work ethic.
 
-# User Story
+## User Story
 
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-# Acceptance Criteria
+## Acceptance Criteria
 
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -25,15 +25,13 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-# Portfolio
+## Portfolio
 
-md
 ![alt text](assets/screenshotreadme.png)
 
 # Deployed Page
 
 https://ellessed.github.io/firstPersonalPortfolio/
-...
 
 ## License
 
