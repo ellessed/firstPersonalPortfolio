@@ -27,11 +27,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # Portfolio
 
-````md
+md
 ![alt text](assets/screenshotreadme.png)
-
-```
-
 
 # Deployed Page
 
@@ -41,5 +38,3 @@ add link here
 ## License
 
 NA
-```
-````
