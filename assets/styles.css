@@ -18,6 +18,9 @@ section {
 footer {
     height: 100px;
     background-color: #101025; 
+    display: flex;
+    justify-content: center;
+
 }
 
 nav {
@@ -193,6 +196,10 @@ a {
   h1 {
     font-size: 40px;
     margin: 5;
+}
+
+footer {
+    background-color: rgb(235, 234, 234);
 }
 
 }
